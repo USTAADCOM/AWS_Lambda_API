@@ -154,8 +154,8 @@ def lambda_handler(event_jsonified, context):
                     }
     except Exception as error:
         response = {
-            "statusCode": 400,
+            "statusCode": 500,
             "Error": error,
-            "Message" : "Bad Format Params"
+            "Message" : "Bad Request"
             }
         return response
