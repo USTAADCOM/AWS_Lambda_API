@@ -7,6 +7,8 @@ Here we develop AWS lambda API for the following task.
 * Palindrome Checker
 ## Setup
   ```code
+  conda create -n <env_name>
+  conda activate <env_name>
   git clone https://github.com/USTAADCOM/AWS_Lambda_API.git
   cd AWS_Lambda_API
   ```
